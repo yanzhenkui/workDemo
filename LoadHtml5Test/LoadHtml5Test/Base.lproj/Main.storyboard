@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Nhd-EA-qhm">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--html5界面-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFM-Kb-EIA">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.79989905650000004" green="1" blue="0.25321945099999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wFM-Kb-EIA" secondAttribute="trailing" id="HB1-4R-4QZ"/>
+                            <constraint firstItem="wFM-Kb-EIA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HPy-13-QBx"/>
+                            <constraint firstItem="wFM-Kb-EIA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Jay-p6-5Iz"/>
+                            <constraint firstAttribute="bottom" secondItem="wFM-Kb-EIA" secondAttribute="bottom" id="yjA-tx-NLo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="html5界面" id="BbF-Od-QON"/>
+                    <connections>
+                        <outlet property="webView" destination="wFM-Kb-EIA" id="cC6-vd-1i5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1240" y="148"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zVd-UW-Pgp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nhd-EA-qhm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KpP-hv-cwz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="8Fg-Cu-DbT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jh8-80-22z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="605" y="184"/>
+        </scene>
+    </scenes>
+</document>
