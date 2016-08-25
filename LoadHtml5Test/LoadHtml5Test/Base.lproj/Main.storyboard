@@ -17,23 +17,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFM-Kb-EIA">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                            </webView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SAC-lf-rtI">
+                                <rect key="frame" x="134" y="283" width="332" height="34"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="B7a-Us-H72">
+                                        <rect key="frame" x="0.0" y="0.0" width="332" height="34"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6AO-zb-ybI">
+                                                <rect key="frame" x="0.0" y="0.0" width="104" height="34"/>
+                                                <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="UIWebView">
+                                                    <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="UIWebViewBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="waz-mh-a1y"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOx-Mc-Piv">
+                                                <rect key="frame" x="114" y="0.0" width="104" height="34"/>
+                                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="WKWebView">
+                                                    <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="WKWebView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lOC-Hz-dtH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJp-Rg-kI2">
+                                                <rect key="frame" x="228" y="0.0" width="104" height="34"/>
+                                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Custom">
+                                                    <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.79989905650000004" green="1" blue="0.25321945099999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="wFM-Kb-EIA" secondAttribute="trailing" id="HB1-4R-4QZ"/>
-                            <constraint firstItem="wFM-Kb-EIA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HPy-13-QBx"/>
-                            <constraint firstItem="wFM-Kb-EIA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Jay-p6-5Iz"/>
-                            <constraint firstAttribute="bottom" secondItem="wFM-Kb-EIA" secondAttribute="bottom" id="yjA-tx-NLo"/>
+                            <constraint firstItem="SAC-lf-rtI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ca7-Wk-BdB"/>
+                            <constraint firstItem="SAC-lf-rtI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rIa-RC-Wno"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="html5界面" id="BbF-Od-QON"/>
-                    <connections>
-                        <outlet property="webView" destination="wFM-Kb-EIA" id="cC6-vd-1i5"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

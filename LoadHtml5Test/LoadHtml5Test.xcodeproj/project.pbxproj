@@ -14,7 +14,20 @@
 		4001C8641D6ACCBC00D771AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4001C8631D6ACCBC00D771AD /* Assets.xcassets */; };
 		4001C8671D6ACCBC00D771AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4001C8651D6ACCBC00D771AD /* LaunchScreen.storyboard */; };
 		4001C86F1D6ACCCC00D771AD /* News.html in Resources */ = {isa = PBXBuildFile; fileRef = 4001C86E1D6ACCCC00D771AD /* News.html */; };
-		4001C8711D6AEC0200D771AD /* nav.png in Resources */ = {isa = PBXBuildFile; fileRef = 4001C8701D6AEC0200D771AD /* nav.png */; };
+		4001C8741D6AF53100D771AD /* ZKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C8731D6AF53100D771AD /* ZKWebViewVC.m */; };
+		4001C8771D6AF54000D771AD /* ZKWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C8761D6AF54000D771AD /* ZKWKWebViewVC.m */; };
+		4001C8911D6AF88E00D771AD /* JGProgressHUD Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4001C8791D6AF88E00D771AD /* JGProgressHUD Resources.bundle */; };
+		4001C8921D6AF88E00D771AD /* JGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C87C1D6AF88E00D771AD /* JGProgressHUD.m */; };
+		4001C8931D6AF88E00D771AD /* JGProgressHUDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C87E1D6AF88E00D771AD /* JGProgressHUDAnimation.m */; };
+		4001C8941D6AF88E00D771AD /* JGProgressHUDErrorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C8801D6AF88E00D771AD /* JGProgressHUDErrorIndicatorView.m */; };
+		4001C8951D6AF88E00D771AD /* JGProgressHUDFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C8821D6AF88E00D771AD /* JGProgressHUDFadeAnimation.m */; };
+		4001C8961D6AF88E00D771AD /* JGProgressHUDFadeZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C8841D6AF88E00D771AD /* JGProgressHUDFadeZoomAnimation.m */; };
+		4001C8971D6AF88E00D771AD /* JGProgressHUDImageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C8861D6AF88E00D771AD /* JGProgressHUDImageIndicatorView.m */; };
+		4001C8981D6AF88E00D771AD /* JGProgressHUDIndeterminateIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C8881D6AF88E00D771AD /* JGProgressHUDIndeterminateIndicatorView.m */; };
+		4001C8991D6AF88E00D771AD /* JGProgressHUDIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C88A1D6AF88E00D771AD /* JGProgressHUDIndicatorView.m */; };
+		4001C89A1D6AF88E00D771AD /* JGProgressHUDPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C88C1D6AF88E00D771AD /* JGProgressHUDPieIndicatorView.m */; };
+		4001C89B1D6AF88E00D771AD /* JGProgressHUDRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C88E1D6AF88E00D771AD /* JGProgressHUDRingIndicatorView.m */; };
+		4001C89C1D6AF88E00D771AD /* JGProgressHUDSuccessIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4001C8901D6AF88E00D771AD /* JGProgressHUDSuccessIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +42,34 @@
 		4001C8661D6ACCBC00D771AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4001C8681D6ACCBC00D771AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4001C86E1D6ACCCC00D771AD /* News.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = News.html; sourceTree = "<group>"; };
-		4001C8701D6AEC0200D771AD /* nav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav.png; sourceTree = "<group>"; };
+		4001C8721D6AF53100D771AD /* ZKWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKWebViewVC.h; sourceTree = "<group>"; };
+		4001C8731D6AF53100D771AD /* ZKWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKWebViewVC.m; sourceTree = "<group>"; };
+		4001C8751D6AF54000D771AD /* ZKWKWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKWKWebViewVC.h; sourceTree = "<group>"; };
+		4001C8761D6AF54000D771AD /* ZKWKWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKWKWebViewVC.m; sourceTree = "<group>"; };
+		4001C8791D6AF88E00D771AD /* JGProgressHUD Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "JGProgressHUD Resources.bundle"; sourceTree = "<group>"; };
+		4001C87A1D6AF88E00D771AD /* JGProgressHUD-Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-Defines.h"; sourceTree = "<group>"; };
+		4001C87B1D6AF88E00D771AD /* JGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUD.h; sourceTree = "<group>"; };
+		4001C87C1D6AF88E00D771AD /* JGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUD.m; sourceTree = "<group>"; };
+		4001C87D1D6AF88E00D771AD /* JGProgressHUDAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDAnimation.h; sourceTree = "<group>"; };
+		4001C87E1D6AF88E00D771AD /* JGProgressHUDAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDAnimation.m; sourceTree = "<group>"; };
+		4001C87F1D6AF88E00D771AD /* JGProgressHUDErrorIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDErrorIndicatorView.h; sourceTree = "<group>"; };
+		4001C8801D6AF88E00D771AD /* JGProgressHUDErrorIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDErrorIndicatorView.m; sourceTree = "<group>"; };
+		4001C8811D6AF88E00D771AD /* JGProgressHUDFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDFadeAnimation.h; sourceTree = "<group>"; };
+		4001C8821D6AF88E00D771AD /* JGProgressHUDFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDFadeAnimation.m; sourceTree = "<group>"; };
+		4001C8831D6AF88E00D771AD /* JGProgressHUDFadeZoomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDFadeZoomAnimation.h; sourceTree = "<group>"; };
+		4001C8841D6AF88E00D771AD /* JGProgressHUDFadeZoomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDFadeZoomAnimation.m; sourceTree = "<group>"; };
+		4001C8851D6AF88E00D771AD /* JGProgressHUDImageIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDImageIndicatorView.h; sourceTree = "<group>"; };
+		4001C8861D6AF88E00D771AD /* JGProgressHUDImageIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDImageIndicatorView.m; sourceTree = "<group>"; };
+		4001C8871D6AF88E00D771AD /* JGProgressHUDIndeterminateIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDIndeterminateIndicatorView.h; sourceTree = "<group>"; };
+		4001C8881D6AF88E00D771AD /* JGProgressHUDIndeterminateIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDIndeterminateIndicatorView.m; sourceTree = "<group>"; };
+		4001C8891D6AF88E00D771AD /* JGProgressHUDIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDIndicatorView.h; sourceTree = "<group>"; };
+		4001C88A1D6AF88E00D771AD /* JGProgressHUDIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDIndicatorView.m; sourceTree = "<group>"; };
+		4001C88B1D6AF88E00D771AD /* JGProgressHUDPieIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDPieIndicatorView.h; sourceTree = "<group>"; };
+		4001C88C1D6AF88E00D771AD /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
+		4001C88D1D6AF88E00D771AD /* JGProgressHUDRingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDRingIndicatorView.h; sourceTree = "<group>"; };
+		4001C88E1D6AF88E00D771AD /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
+		4001C88F1D6AF88E00D771AD /* JGProgressHUDSuccessIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDSuccessIndicatorView.h; sourceTree = "<group>"; };
+		4001C8901D6AF88E00D771AD /* JGProgressHUDSuccessIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDSuccessIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +111,10 @@
 				4001C8651D6ACCBC00D771AD /* LaunchScreen.storyboard */,
 				4001C8681D6ACCBC00D771AD /* Info.plist */,
 				4001C8571D6ACCBC00D771AD /* Supporting Files */,
+				4001C8721D6AF53100D771AD /* ZKWebViewVC.h */,
+				4001C8731D6AF53100D771AD /* ZKWebViewVC.m */,
+				4001C8751D6AF54000D771AD /* ZKWKWebViewVC.h */,
+				4001C8761D6AF54000D771AD /* ZKWKWebViewVC.m */,
 			);
 			path = LoadHtml5Test;
 			sourceTree = "<group>";
@@ -79,10 +123,41 @@
 			isa = PBXGroup;
 			children = (
 				4001C86E1D6ACCCC00D771AD /* News.html */,
-				4001C8701D6AEC0200D771AD /* nav.png */,
 				4001C8581D6ACCBC00D771AD /* main.m */,
+				4001C8781D6AF88E00D771AD /* JGProgressHUD */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4001C8781D6AF88E00D771AD /* JGProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4001C8791D6AF88E00D771AD /* JGProgressHUD Resources.bundle */,
+				4001C87A1D6AF88E00D771AD /* JGProgressHUD-Defines.h */,
+				4001C87B1D6AF88E00D771AD /* JGProgressHUD.h */,
+				4001C87C1D6AF88E00D771AD /* JGProgressHUD.m */,
+				4001C87D1D6AF88E00D771AD /* JGProgressHUDAnimation.h */,
+				4001C87E1D6AF88E00D771AD /* JGProgressHUDAnimation.m */,
+				4001C87F1D6AF88E00D771AD /* JGProgressHUDErrorIndicatorView.h */,
+				4001C8801D6AF88E00D771AD /* JGProgressHUDErrorIndicatorView.m */,
+				4001C8811D6AF88E00D771AD /* JGProgressHUDFadeAnimation.h */,
+				4001C8821D6AF88E00D771AD /* JGProgressHUDFadeAnimation.m */,
+				4001C8831D6AF88E00D771AD /* JGProgressHUDFadeZoomAnimation.h */,
+				4001C8841D6AF88E00D771AD /* JGProgressHUDFadeZoomAnimation.m */,
+				4001C8851D6AF88E00D771AD /* JGProgressHUDImageIndicatorView.h */,
+				4001C8861D6AF88E00D771AD /* JGProgressHUDImageIndicatorView.m */,
+				4001C8871D6AF88E00D771AD /* JGProgressHUDIndeterminateIndicatorView.h */,
+				4001C8881D6AF88E00D771AD /* JGProgressHUDIndeterminateIndicatorView.m */,
+				4001C8891D6AF88E00D771AD /* JGProgressHUDIndicatorView.h */,
+				4001C88A1D6AF88E00D771AD /* JGProgressHUDIndicatorView.m */,
+				4001C88B1D6AF88E00D771AD /* JGProgressHUDPieIndicatorView.h */,
+				4001C88C1D6AF88E00D771AD /* JGProgressHUDPieIndicatorView.m */,
+				4001C88D1D6AF88E00D771AD /* JGProgressHUDRingIndicatorView.h */,
+				4001C88E1D6AF88E00D771AD /* JGProgressHUDRingIndicatorView.m */,
+				4001C88F1D6AF88E00D771AD /* JGProgressHUDSuccessIndicatorView.h */,
+				4001C8901D6AF88E00D771AD /* JGProgressHUDSuccessIndicatorView.m */,
+			);
+			path = JGProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4001C86F1D6ACCCC00D771AD /* News.html in Resources */,
+				4001C8911D6AF88E00D771AD /* JGProgressHUD Resources.bundle in Resources */,
 				4001C8671D6ACCBC00D771AD /* LaunchScreen.storyboard in Resources */,
 				4001C8641D6ACCBC00D771AD /* Assets.xcassets in Resources */,
 				4001C8621D6ACCBC00D771AD /* Main.storyboard in Resources */,
-				4001C8711D6AEC0200D771AD /* nav.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +234,20 @@
 			files = (
 				4001C85F1D6ACCBC00D771AD /* ViewController.m in Sources */,
 				4001C85C1D6ACCBC00D771AD /* AppDelegate.m in Sources */,
+				4001C8951D6AF88E00D771AD /* JGProgressHUDFadeAnimation.m in Sources */,
+				4001C8931D6AF88E00D771AD /* JGProgressHUDAnimation.m in Sources */,
+				4001C8771D6AF54000D771AD /* ZKWKWebViewVC.m in Sources */,
+				4001C8971D6AF88E00D771AD /* JGProgressHUDImageIndicatorView.m in Sources */,
+				4001C89C1D6AF88E00D771AD /* JGProgressHUDSuccessIndicatorView.m in Sources */,
+				4001C8921D6AF88E00D771AD /* JGProgressHUD.m in Sources */,
+				4001C89B1D6AF88E00D771AD /* JGProgressHUDRingIndicatorView.m in Sources */,
+				4001C8991D6AF88E00D771AD /* JGProgressHUDIndicatorView.m in Sources */,
 				4001C8591D6ACCBC00D771AD /* main.m in Sources */,
+				4001C89A1D6AF88E00D771AD /* JGProgressHUDPieIndicatorView.m in Sources */,
+				4001C8981D6AF88E00D771AD /* JGProgressHUDIndeterminateIndicatorView.m in Sources */,
+				4001C8741D6AF53100D771AD /* ZKWebViewVC.m in Sources */,
+				4001C8961D6AF88E00D771AD /* JGProgressHUDFadeZoomAnimation.m in Sources */,
+				4001C8941D6AF88E00D771AD /* JGProgressHUDErrorIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +394,7 @@
 				4001C86D1D6ACCBC00D771AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
